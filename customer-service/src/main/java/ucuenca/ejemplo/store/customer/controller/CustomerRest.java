@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 import ucuenca.ejemplo.store.customer.repository.entity.Customer;
 import ucuenca.ejemplo.store.customer.repository.entity.Region;
-import ucuenca.ejemplo.store.customer.repository.CustomerRepository;
+import ucuenca.ejemplo.store.customer.service.CustomerService;
 
 
 import javax.validation.Valid;
