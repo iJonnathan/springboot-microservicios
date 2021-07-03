@@ -10,6 +10,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableFeignClients
+
 @EnableHystrix
 @EnableHystrixDashboard
 public class ShoppingServiceApplication {
